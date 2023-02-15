@@ -649,6 +649,7 @@ textarea {
     }
 
     .img-cards {
+        position:unset;
         width: auto;
         margin-left: 10rem;
         margin-right: 10rem;
@@ -657,15 +658,26 @@ textarea {
     }
 
     .img-cards card {
+        position:unset;
         width: 70%; 
         background-color: yellow;
     }
 
     .img-cards img {
         position:unset;
-        width: fit-content;
+        width: fit-content!important;
         height: 100%;
-        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .img-cards h3 {
+        width: fit-content!important;
+        font-size: 100px;
+    }
+
+    .img-cards p {
+        width: fit-content!important;
+        font-size: 60px;
     }
 
     .btn-back-cars {
@@ -678,14 +690,25 @@ textarea {
 
     /* FOOTER */
 
+    /* Home */
+
     .footer {
         font-size: 40px;
     }
 
-    .footer p {
-        font-size: 220px;
+
+    /* Vendus */
+    .footer-vendus {
+        margin-top: 90rem;
+    }
+
+    .footer-vendus p {
+        font-size: 30px;
 
     }
+
+
+
     }
 
 
