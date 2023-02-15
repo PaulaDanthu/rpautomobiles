@@ -648,6 +648,34 @@ textarea {
         padding-top: 80px;
     }
 
+    .img-cards {
+        width: auto;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        display:flex;
+        justify-content: center;
+    }
+
+    .img-cards card {
+        width: 70%; 
+        background-color: yellow;
+    }
+
+    .img-cards img {
+        position:unset;
+        width: fit-content;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .btn-back-cars {
+        display: none;
+    }
+
+    .btn-fwd-cars {
+        display: none;
+    }
+
     /* FOOTER */
 
     .footer {
