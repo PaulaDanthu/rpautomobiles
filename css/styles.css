@@ -294,6 +294,7 @@ footer {
     border: none;
     position: absolute;
     z-index: 0;
+    cursor: pointer;
     
 }
 
@@ -306,6 +307,7 @@ footer {
     border: none;
     position: absolute;
     z-index: 0;
+    cursor: pointer;
 }
 
 .visible {
@@ -373,8 +375,8 @@ textarea {
 }
 
 .img-cards {
-    margin: auto;
-    position: relative;
+    margin-left: 27rem;
+    position: absolute;
     width: 450px;
     height: 650px;
     border-radius: 30px;
@@ -389,7 +391,7 @@ textarea {
     align-items: center;
     width: 400px;
     height: 600px;
-    position: absolute;
+    
     margin-left: 25px;
     margin-top: 20px;
 }
@@ -428,6 +430,9 @@ textarea {
     z-index: 0;
 }
 
+.footer-vendus {
+    margin-top: 60rem;
+}
 
 /* Media Queries ------------------ */
 
