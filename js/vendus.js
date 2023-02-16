@@ -93,9 +93,16 @@ function displayCarCardsBack() {
 
 // Time interval permits to run the diaporama automatically 
 
-let timer = setInterval(displayCarCardsForward, 3000);
+//let timer = setInterval(displayCarCardsForward, 3000);
 
 // Event listeners for the buttons Forward and Back
 
-buttonForwardCars.addEventListener("click", displayCarCardsForward);
-buttonBackCars.addEventListener("click", displayCarCardsBack);
+//buttonForwardCars.addEventListener("click", displayCarCardsForward);
+//buttonBackCars.addEventListener("click", displayCarCardsBack);
+
+const elements = document.querySelectorAll('card');
+
+elements.forEach((element) => {
+    element.classList.add('d-flex flex-column align-items-center');
+    console.log("class add");
+});
