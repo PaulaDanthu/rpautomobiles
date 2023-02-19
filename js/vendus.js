@@ -21,33 +21,33 @@ let carCard11           = document.querySelector(".car-card11");
 let carCard12           = document.querySelector(".car-card12");
 let carCard13           = document.querySelector(".car-card13");
 let carCard14           = document.querySelector(".car-card14");
-let carCard15           = document.querySelector(".car-card15");
-let carCard16           = document.querySelector(".car-card16");
-let carCard17           = document.querySelector(".car-card17");
-let carCard18           = document.querySelector(".car-card18");
-let carCard19           = document.querySelector(".car-card19");
-let carCard20           = document.querySelector(".car-card20");
-let carCard21           = document.querySelector(".car-card21");
-let carCard22           = document.querySelector(".car-card22");
-let carCard23           = document.querySelector(".car-card23");
-let carCard24           = document.querySelector(".car-card24");
-let carCard25           = document.querySelector(".car-card25");
-let carCard26           = document.querySelector(".car-card26");
-let carCard27           = document.querySelector(".car-card27");
-let carCard28           = document.querySelector(".car-card28");
-let carCard29           = document.querySelector(".car-card29");
-let carCard30           = document.querySelector(".car-card30");
-let carCard31           = document.querySelector(".car-card31");
-let carCard32           = document.querySelector(".car-card32");
-let carCard33           = document.querySelector(".car-card33");
-let carCard34           = document.querySelector(".car-card34");
-let carCard35           = document.querySelector(".car-card35");
-let carCard36           = document.querySelector(".car-card36");
-let carCard37           = document.querySelector(".car-card37");
-let carCard38           = document.querySelector(".car-card38");
+// let carCard15           = document.querySelector(".car-card15");
+// let carCard16           = document.querySelector(".car-card16");
+// let carCard17           = document.querySelector(".car-card17");
+// let carCard18           = document.querySelector(".car-card18");
+// let carCard19           = document.querySelector(".car-card19");
+// let carCard20           = document.querySelector(".car-card20");
+// let carCard21           = document.querySelector(".car-card21");
+// let carCard22           = document.querySelector(".car-card22");
+// let carCard23           = document.querySelector(".car-card23");
+// let carCard24           = document.querySelector(".car-card24");
+// let carCard25           = document.querySelector(".car-card25");
+// let carCard26           = document.querySelector(".car-card26");
+// let carCard27           = document.querySelector(".car-card27");
+// let carCard28           = document.querySelector(".car-card28");
+// let carCard29           = document.querySelector(".car-card29");
+// let carCard30           = document.querySelector(".car-card30");
+// let carCard31           = document.querySelector(".car-card31");
+// let carCard32           = document.querySelector(".car-card32");
+// let carCard33           = document.querySelector(".car-card33");
+// let carCard34           = document.querySelector(".car-card34");
+// let carCard35           = document.querySelector(".car-card35");
+// let carCard36           = document.querySelector(".car-card36");
+// let carCard37           = document.querySelector(".car-card37");
+// let carCard38           = document.querySelector(".car-card38");
 
 
-const carCardsArray     = [carCard1, carCard2, carCard3, carCard4, carCard5, carCard6, carCard7, carCard8, carCard9, carCard10, carCard11, carCard12, carCard13, carCard14, carCard15, carCard16, carCard17, carCard18, carCard19, carCard20, carCard21, carCard22, carCard23, carCard24, carCard25, carCard26, carCard27, carCard28, carCard29, carCard30, carCard31, carCard32, carCard33, carCard34, carCard35, carCard36, carCard37, carCard38 ];
+const carCardsArray     = [carCard1, carCard2, carCard3, carCard4, carCard5, carCard6, carCard7, carCard8, carCard9, carCard10, carCard11, carCard12, carCard13, carCard14];
 
 // Loop for running the array cardsArray, setting up the index of displayed card if the card contains a class "visible"
 
@@ -93,16 +93,9 @@ function displayCarCardsBack() {
 
 // Time interval permits to run the diaporama automatically 
 
-//let timer = setInterval(displayCarCardsForward, 3000);
+let timer = setInterval(displayCarCardsForward, 3000);
 
 // Event listeners for the buttons Forward and Back
 
 //buttonForwardCars.addEventListener("click", displayCarCardsForward);
 //buttonBackCars.addEventListener("click", displayCarCardsBack);
-
-const elements = document.querySelectorAll('card');
-
-elements.forEach((element) => {
-    element.classList.add('d-flex flex-column align-items-center');
-    console.log("class add");
-});
